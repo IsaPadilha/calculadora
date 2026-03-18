@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Calculadora..ConsoleApp/Calculadora..ConsoleApp.csproj" />
+  <Project Path="Calculadora.ConsoleApp/Calculadora.ConsoleApp.csproj" />
+</Solution>

@@ -26,7 +26,7 @@ while (true == true)
         break;
     }
 
-    if (opcao != "1" && opcao != "2" && opcao != "3" && opcao != "4" && opcao != "5")
+    if (opcao != "1" && opcao != "2" && opcao != "3" && opcao != "4" && opcao != "5" && opcao != "6")
     {
         Console.WriteLine("-------------------------");
         Console.WriteLine("Opção inválida!");
@@ -55,7 +55,10 @@ while (true == true)
             string linhaTabuada = $"{numeroDigitado} x {iterador} = {numeroDigitado * iterador}";
             Console.WriteLine(linhaTabuada);
         }
-        return;
+        historicoOperacoes[contadorOperacoes] = $"Tabuada do {numeroDigitado}";
+        contadorOperacoes++;
+        Console.ReadLine();
+        continue;
     }
 
     if (opcao == "6")
